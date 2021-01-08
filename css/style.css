@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #F7FAFC;
+}
+.general-container {
+  position: relative;
+}
+.header {
+  overflow: hidden;
+  background: #fff;
+  padding: 12px 24px 12px 24px;
+}
+h1 {
+  width: 97px;
+  height: 32px;
+  display: inline;
+}
+
+.list {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+ul li a {
+  text-decoration: none;
+  line-height: 37px;
+  color: #5E6E7F;
+  font-size: 14px;
+  font-weight: 500;
+}
+ul li {
+  list-style: none;
+  float: left;
+  margin-right: 32px;
+}
+.main {
+  position: relative;
+}
+.form {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 160px;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #E0E9F1;
+  outline: none;
+  padding-left: 8px;
+}
+.main-form {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 150px;
+  margin-left: -150px;
+  border-radius: 10px;
+  
+}
+.title {
+  font-size: 25px;
+  display: block;
+  color: #2E418D;
+  text-align: center;
+  margin-top: 70px;
+}
+.user {
+  font-size: 13px;
+  background: #fff;
+  margin-left: 15px;
+  padding-left: 8px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  position: absolute;
+  top: -6px;
+  color: #E0E9F1;
+  
+}
+.click {
+  width: 20px;
+  height: 20px;
+}
+.input-group {
+  position: relative;
+  margin-top: 20px;
+}
+.check-box {
+  overflow: hidden;
+  margin-top: 20px;
+}
+button {
+  width: 100%;
+  height: 36px;
+  margin-top: 10px;
+  font-size: 12px;
+  background: #2E418D;
+  border-radius: 10px;
+  border: 2px solid #2E418D;
+  outline: none;
+  color: #fff;
+}
+button:focus {
+  color: black;  
+}
